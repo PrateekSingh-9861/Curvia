@@ -1,0 +1,43 @@
+
+# Optional: ignore test or preview files
+*.test.js
+*.spec.js
+*.md~
+
+# Ignore development/build-related folders
+node_modules/
+public/
+src/
+.vite/
+.vscode/
+src/
+dist/vite.svg
+!src/react/useAnimation.js
+!src/vanilla/Animation.js
+!src/shared/utils.js
+src/App.jsx
+src/main.jsx
+src/assets/
+src/index.css
+
+# Ignore configuration & tooling
+.eslintrc
+eslint.config.js
+vite.config.js
+babel.config.js
+tsconfig.json
+tsconfig.node.json
+
+# Ignore environment files
+.env*
+npm-debug.log*
+
+# Ignore non-essential files
+*.log
+*.test.*
+coverage/
+__tests__/
+
+# Ignore anything not used by consumers
+index.html
+README.template.md

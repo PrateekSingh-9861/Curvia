@@ -1,0 +1,49 @@
+{
+  "name": "curvia",
+  "version": "1.0.0-beta.0.0.2",
+  "description": "A lightweight animation library for React and Vanilla JS",
+  "type": "module",
+  "main": "dist/curvia.cjs.js",
+  "module": "dist/curvia.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/curvia.es.js",
+      "require": "./dist/curvia.cjs.js"
+    },
+    "./react": {
+      "import": "./dist/curvia.react.es.js",
+      "require": "./dist/curvia.react.cjs.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
+    "vite": "^7.0.4"
+  },
+  "keywords": [
+    "animation",
+    "gsap",
+    "react",
+    "vanilla-js",
+    "library",
+    "curvia",
+    "curviajs",
+    "curvia.js"
+  ],
+  "author": {
+    "name": "Prateek Singh",
+    "url": "https://github.com/PrateekSingh-9861"
+  },
+  "license": "MIT"
+}
