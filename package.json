@@ -1,9 +1,17 @@
 {
   "name": "curvia",
-  "version": "1.0.0-beta.0.0.2",
+  "version": "1.0.0-beta.0.0.3",
   "description": "A lightweight animation library for React and Vanilla JS",
   "type": "module",
   "main": "dist/curvia.cjs.js",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/PrateekSingh-9861/Curvia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PrateekSingh-9861/Curvia/issues"
+  },
+  "homepage": "https://github.com/PrateekSingh-9861/Curvia#readme",
   "module": "dist/curvia.es.js",
   "exports": {
     ".": {
@@ -39,7 +47,9 @@
     "library",
     "curvia",
     "curviajs",
-    "curvia.js"
+    "curvia.js",
+    "css-animation",
+    "javascript"
   ],
   "author": {
     "name": "Prateek Singh",

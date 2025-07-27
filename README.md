@@ -1,6 +1,9 @@
 
 # ✨Curvia — Declarative Animation Library Powered by GSAP
 
+[![npm version](https://img.shields.io/npm/v/curvia.svg)](https://www.npmjs.com/package/curvia)
+
+
 **Curvia** is a lightweight, plug-and-play animation library built with **GSAP** and **Vite**, designed to work seamlessly with **React** and **Vanilla JavaScript**. It allows developers to use a simple `animate` attribute or hook to trigger smooth, production-ready animations — no boilerplate required.
 
 ---
